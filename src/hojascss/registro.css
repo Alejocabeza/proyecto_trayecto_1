@@ -1,0 +1,267 @@
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.signin {
+    width: 100%;
+    height: 850px;
+    background-image: url(../assets/img/fondologin4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.container-signin {
+    border-radius: 10px;
+    width: 450px;
+    height: 700px;
+    background-color: white;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 60px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.384);
+    border-radius: 5px;
+}
+
+form {
+    height: 100%;
+    padding: 30px;
+}
+
+form h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    color: #5f27cd;
+}
+
+.line {
+    padding: 1px;
+    background-color: #5f27cd;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.cont-signin {
+    position: relative;
+}
+
+.content-error {
+    width: 100%;
+    font-size: 12px;
+    position: absolute;
+    top: 65px;
+    display: none;
+}
+
+.content-error-activo {
+    display: block;
+}
+
+#cont1-signin1 {
+    margin-top: 15px;
+}
+
+.cont-signinsub {
+    background-color: #5e27cd3a;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+svg {
+    margin-left: 2px;
+    color: #5f27cd;
+}
+
+.cont-signin input {
+    width: 85%;
+    height: 35px;
+    box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4);
+    border: 0;
+    margin-left: 8px;
+    background: transparent;
+}
+
+.cont-signin input:focus {
+    border: 2px solid #0075ff;
+    outline: none;
+    border-radius: 2px;
+}
+
+.cont-signin label {
+    color: #5f27cd;
+    font-size: 15px;
+    font-weight: 700;
+    width: 100%;
+}
+
+#cont1-signin1 {
+    margin-bottom: 25px;
+}
+
+#cont2-signin1 {
+    margin-bottom: 33px;
+}
+
+#cont3-signin1 {
+    margin-bottom: 20px;
+}
+
+#cont4-signin1 {
+    margin-bottom: 20px;
+}
+
+#cont5-signin1 {
+    margin-bottom: 25px;
+}
+
+#cont6-signin1 {
+    display: flex;
+    height: 70px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.container-gender {
+    width: 30%;
+    height: 25px;
+}
+
+#container-gender {
+    height: 38px;
+    text-align: left;
+    padding-top: 5px;
+}
+
+.container-gender input {
+    width: 12px;
+    height: 12px;
+    margin-right: 2px;
+}
+
+.container-date {
+    width: 65%;
+    margin-left: 5%;
+}
+
+#boton button {
+    background-color: #5f27cd;
+    color: white;
+    font-weight: 700;
+    border: 0;
+    width: 100px;
+    height: 30px;
+    border-radius: 2px;
+    margin-left: 145px;
+    margin-top: 7px;
+}
+
+#boton p {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#boton a {
+    text-decoration: none;
+    color: #5f27cd;
+    border: 0;
+    width: 85px;
+    height: 30px;
+    border-radius: 2px;
+    text-align: center;
+    margin-left: 10px;
+    padding-top: 2px;
+}
+
+#boton a:hover {
+    color: #5e27cd85;
+}
+
+#boton button:hover {
+    background-color: #5e27cd85;
+}
+
+.icon-eye svg {
+    color: black;
+    width: 18px;
+    height: 18px;
+    margin-right: 2px;
+}
+
+.icon-eye svg:hover {
+    color: #5e27cdbd;
+}
+
+.icon-eye1 svg {
+    color: black;
+    width: 18px;
+    height: 18px;
+    margin-right: 2px;
+}
+
+.icon-eye1 svg:hover {
+    color: #5e27cdbd;
+}
+
+#icon-error {
+    color: black;
+    position: absolute;
+    margin-left: 395px;
+    top: 36px;
+    opacity: 0;
+}
+
+/* .cont-signin-correcto .icon-error {
+    color: #1ed12d;
+    opacity: 1;
+}
+
+.cont-signin-incorrecto label {
+    color: #bb2929;
+}
+
+.cont-signin-incorrecto .icon-error {
+    color: #bb2929;
+    opacity: 1;
+}
+
+.cont-signin-incorrecto input {
+    border: 2px solid #bb2929;
+} */
+
+.mensaje-errorsignin {
+    height: 45px;
+    line-height: 45px;
+    background: #f66060;
+    border-radius: 3px;
+    padding: 0 15px;
+    text-align: center;
+    display: none;
+}
+
+.mensaje-errorsignin-activo {
+    display: block;
+}
+
+.mensaje-errorsignin svg {
+    color: black;
+}
+
+.mensaje-exitoso {
+    font-size: 14px;
+    color: #119200;
+    display: none;
+}
+
+.mensaje-exitoso-activo {
+    display: block;
+}
+
+#icon-error {
+    width: 16px;
+    height: 16px;
+}

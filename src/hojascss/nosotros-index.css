@@ -1,0 +1,176 @@
+#nosotros {
+    height: 1100px;
+    padding-top: 25px;
+}
+
+.container-us {
+    height: 490px;
+    padding-top: 10px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.container-mvo {
+    margin-top: 10px;
+}
+
+.container-card {
+    margin-top: 20px;
+    height: 520px;
+}
+
+.container-us #card1,
+#card2 {
+    border: 1px solid lightgrey;
+    width: 295px;
+    height: 450px;
+    border-radius: 15px;
+    list-style: armenian;
+}
+
+#card1 {
+    margin-left: 345px;
+}
+
+#card2 {
+    margin-left: 30px;
+}
+
+.imgcard {
+    position: absolute;
+    width: 90px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.imgcard img {
+    position: absolute;
+    height: 100px;
+    width: 90px;
+    border-radius: 50px;
+}
+
+#card2 .imgcard {
+    background-color: #4a00e0;
+    border-radius: 50px;
+}
+
+.fondocard {
+    width: 100%;
+    margin-left: 0.1px;
+    height: 30%;
+    border: 1px solid lightgray;
+    background-image: url(../assets/img/fondo-card2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.cardcontent {
+    height: 300px;
+    padding-top: 37px;
+}
+
+.cardcontent p {
+    margin-bottom: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#namecard {
+    color: #4a00e0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#titlecard {
+    text-align: center;
+    color: #8e2de2;
+    font-size: 25px;
+}
+
+#descriptioncard {
+    padding: 0 10px 0 25px;
+    height: 173px;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: left;
+    margin-top: 7px;
+}
+
+#descriptioncard li {
+    margin: 5px;
+}
+
+.cardbordeinf {
+    background: linear-gradient(to right, hsl(272, 76%, 53%), hsla(260, 100%, 44%, 0.984));
+    height: 19px;
+    border: 1px solid lightgray;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.container-mvo {
+    display: flex;
+}
+
+.subcontainer-us {
+    width: 30.33%;
+    text-align: center;
+}
+
+#mision {
+    margin-left: 19.3905px;
+}
+
+#objetivos {
+    margin-right: 19.39px;
+}
+
+#vision {
+    margin: 0 38.781px;
+}
+
+#nosotros h3 {
+    background-color: #33006F;
+    color: #fcfcfc;
+    font-weight: 700;
+    width: 220px;
+    height: 40px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.subcontainer-us p {
+    color: black;
+    background-color: #fcfcfc;
+    border-radius: 5px;
+    border: 2px solid #33006F;
+    height: 85%;
+    font-size: 17px;
+    padding: 0 10px;
+    margin: 0;
+}
+
+#cont-enlace2 {
+    height: 61px;
+    position: relative;
+}
+
+#cont-enlace2 a {
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

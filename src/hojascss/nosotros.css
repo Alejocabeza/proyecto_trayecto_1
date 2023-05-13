@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+section.grupob {
+    height: 2300px;
+}
+
+.grupob h3 {
+    background-color: #33006F;
+    color: #fcfcfc;
+    font-weight: 700;
+    width: 295px;
+    height: 45px;
+    padding-top: 7px;
+    font-size: 25px;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.grupob p {
+    background-color: #fcfcfc;
+    border-radius: 5px;
+    border: 2px solid #33006F;
+    padding: 10px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-organigram {
+    width: 900px;
+    height: 580px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.organigrama img {
+    width: 900px;
+    height: 550px;
+}
+
+#n-objetivos h4 {
+    background-color: rgba(255, 182, 193, 0.445);
+    width: 270px;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 15px;
+    margin-left: 25px;
+}
+
+#n-objetivos ul {
+    border: 2px solid #e84393;
+    border-radius: 5px;
+    margin-left: 27px;
+    background-color: #fcfcfc;
+    width: 1225px;
+    height: 250px;
+}
+
+#th-table {
+    text-align: center;
+    font-size: 19px;
+    background-color: #6e00ec52;
+}
+
+table td.subt-table {
+    font-weight: 700;
+    background-color: #6e00ec52;
+}
+
+tbody th {
+    text-align: center;
+}
+
+thead th {
+    text-align: center;
+}

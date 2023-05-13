@@ -1,0 +1,136 @@
+#contacto {
+    height: 860px;
+}
+
+.ubicacion {
+    display: flex;
+    margin-top: 15px;
+}
+
+.ubicacion div {
+    width: 643.5px;
+    background-color: #fcfcfc;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 2px solid #33006F;
+}
+
+#container-ub {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#container-ub h3 {
+    background-color: #33006F;
+    color: #fcfcfc;
+    font-weight: 700;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+#container-ub img {
+    margin: 0 0 10px 10px;
+}
+
+#container-form {
+    margin: 0 1.25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 0;
+}
+
+#container-ub {
+    margin: 0 1.25%;
+    font-size: 8px;
+}
+
+form {
+    width: 60%;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+}
+
+#container-form h3 {
+    background-color: #33006F;
+    color: #fcfcfc;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+    width: 368.45px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#container-form label {
+    font-size: 12px;
+}
+
+#content-form {
+    height: 530px;
+    width: 100%;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#content-form input {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+#container-respuesta {
+    width: 100%;
+    border: 0px;
+    margin-top: 10px;
+}
+
+#container-respuesta #enviar {
+    margin-left: 90px;
+}
+
+#enviar,
+#cancelar {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 2px 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    color: #fcfcfc;
+    font-weight: 700;
+    background-color: #33006F;
+}
+
+#enviar:hover {
+    background-color: #d9d2e9;
+    color: black;
+}
+
+#cancelar:hover {
+    background-color: #d9d2e9;
+    color: black;
+}
+
+#container-ub p {
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+#container-ub ul {
+    padding: 0 80px;
+    font-size: 18px;
+}
+
+#container-ub iframe {
+    padding-left: 15px;
+}
